@@ -1,15 +1,15 @@
 # Watcher of Friends Online
 
-Скрипт предназначен для отображения списка ваших друзей онлайн. 
-Для работы скрипту нужен `APP_ID`, который можно получить создав приложение здесь https://vk.com/editapp?act=create
+The script created to display your vk-friends online. 
+For correct work script requires `APP_ID`, you can get it by creating application at https://vk.com/editapp?act=create
 
-При запуске скрипта вам нужно передать этот id через переменную окружения `VK_APP_ID`:
+You could pass this id with environment variable `VK_APP_ID`:
 
 ```angular2
 VK_APP_ID=123456 python3 vk_friends_online.py
 ```
 
-Скрипт запросил ваши логин и пароль, и после этого выведет список ваших друзей онлайн.
+Script will request your login and password, and after that it will show list of your online friends.
 
 # How to Install
 
